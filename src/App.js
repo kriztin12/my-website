@@ -11,7 +11,7 @@ import {
 import Home from './components/home';
 import Projects from './components/projects';
 import Sidebar from './components/sidebar';
-
+import About from './components/about';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/projects" element={<Projects />}/>
+          <Route path="/about" element={<About />}/>
         </Routes>
 
     </div>

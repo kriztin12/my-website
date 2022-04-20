@@ -17,4 +17,11 @@ export const SideBarContents = [
         cName: 'nav-text',
        
     }, 
+    {
+        title: 'About',
+        path: '/about',
+        icon: <AiIcons.AiFillHome/>,
+        cName: 'nav-text',
+       
+    }, 
 ]

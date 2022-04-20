@@ -45,7 +45,8 @@
 }
 
 .home,
-.projects {
+.projects,
+.about {
   display: flex;
   height: 90vh;
   align-items: center;
